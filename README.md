@@ -32,8 +32,8 @@ https://github.com/user-attachments/assets/701a9dae-bbbe-44c5-ad5a-78bd5316f08b
 Fluid simulations can be created in the `/run` directory. Two example simulations:
 `kelvin_helmholtz_instability.c` and `viscosity_investigation.c` are provided. The
 general outline for the simulation main function is as follows:
-- Create the simulation grid using grid_create(N) from `src/grid.h`
-- Initialize the FFT using init_FFT(N) from `src/fluid_solver.h`
+- Create the simulation grid using *grid_create* from `src/grid.h`
+- Initialize the FFT using *init_FFT* from `src/fluid_solver.h`
 - (Optional) Initialize a binary output file using *init_binary_output_file* from `src/io.h`
 - Define the main simulation loop:
 	- Apply forces
