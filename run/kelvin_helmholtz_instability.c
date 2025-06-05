@@ -25,7 +25,7 @@ int main() {
     // I am not sure how well this works on other terminals besides my own
     int render_to_terminal = 1; // Set this to 1 and it will render to terminal (zoom out in terminal) 
     
-    // Specify simulation parameters (task 4)
+    // Specify simulation parameters 
     const int N = 500;
     const int total_steps = 700;
     float dt = 0.01;

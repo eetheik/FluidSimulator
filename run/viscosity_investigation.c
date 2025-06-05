@@ -150,7 +150,7 @@ int simulation(float visc, char *base_filename) {
 // Main function which runs 4 simulations each with variable viscosities. 
 int main() {
     // Viscosities to be simulated
-    float visc_arr[] = {0.1f, 0.01f};
+    float visc_arr[] = {1.0f, 0.1f, 0.01f};
     int N = sizeof(visc_arr) / sizeof(visc_arr[0]);
     char base_filename[100];
 
