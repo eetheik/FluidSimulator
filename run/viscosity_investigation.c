@@ -53,8 +53,6 @@ void add_gaussian(float *field, int N, float x_center, float y_center, float A, 
  * @param visc A floating point number defining the kinematic viscosity used in the simulation
  * @param base_filename A pointer to a character array storing the base of the filename for storing the simulation output
  * 
- * Outputs are stored in the /outputs directory with the base filename, followed by the date and time of the simulation,
- * e.g. "viscosity_investigation_visc_0.0100_19_05_2025_17h42m10s.bin"
  */
 int simulation(float visc, char *base_filename) {
     // Specify simulation parameters 
@@ -147,10 +145,10 @@ int simulation(float visc, char *base_filename) {
     return 0;
 }
 
-// Main function which runs 4 simulations each with variable viscosities. 
+// Main function which runs 3 simulations each with variable viscosities. 
 int main() {
     // Viscosities to be simulated
-    float visc_arr[] = {1.0f, 0.1f, 0.01f};
+    float visc_arr[] = {1.0f, 0.1f, 0.001f};
     int N = sizeof(visc_arr) / sizeof(visc_arr[0]);
     char base_filename[100];
 

@@ -15,11 +15,6 @@
  * first 10 timesteps, resulting in the formation of swirls during the following evolution of the fluid. 
  * This simulation demonstrates the Kelvin- Helmholtz instability.
  * 
- * Exact details for the disturbance applied can be consulted from section 3.1 of the report.
- * 
- * Output binary files are stored in the /outputs directory with the file basename "kelvin_helmholtz_instability", 
- * followed by the date and time of the simulation, e.g. "kelvin_helmholtz_instability_new_19_05_2025_18h02m26s.bin"
- *
  */
 int main() {
     // I am not sure how well this works on other terminals besides my own
