@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/701a9dae-bbbe-44c5-ad5a-78bd5316f08b
 
 # Requirements
 - C, gcc (I used ggc13)
-	- fftw3 (for Fast Fourier Transforms) + standard C libraries
+	- fftw3f (for Fast Fourier Transforms, note that the code uses floats) + standard C libraries
 - Make utility
 - Zooming out in your terminal window
 
