@@ -57,3 +57,4 @@ to render the simulation to the terminal.
 # Code expansion ideas
 - Command line inputs during a simulation, e.g. hotkeys for applying certain types of forces or adding dyes
 - 3-dimensional fluid simulations (would not be possible in terminal anymore, or maybe ASCII characters instead of colored spaces, like the rotating donut)
+- Installing fftw3 with floating point numbers directly using the Makefile if it doesn't exist
