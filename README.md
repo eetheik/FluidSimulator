@@ -17,6 +17,7 @@ The asymptotic time complexity for the velocity evolution is $O(N \log N)$ due t
 
 # Examples
 Two example simulations created with the FluidSimulator are shown below. The first simulation begins with differing densities side-by-side, and shows their evolution after a small disturbance along the fluid boundary. Large swirls become apparent, demonstrating the Kelvin-Helmholtz instability (https://en.wikipedia.org/wiki/Kelvin%E2%80%93Helmholtz_instability). The second simulation shows the evolution of four Gaussian blobs which are pushed towards eachother, under three varying viscosity conditions. 
+
 https://github.com/user-attachments/assets/81cbf7d2-4ea9-4d54-9d5a-fd7b3f9b5c43
 
 https://github.com/user-attachments/assets/701a9dae-bbbe-44c5-ad5a-78bd5316f08b
