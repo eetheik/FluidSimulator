@@ -47,7 +47,7 @@ It is used as:
 
 `make SIM=<filename>.c`,
 
-which compiles to a `./simulate` executable. The user should then zoom out in their
+which compiles to a `simulate` executable. The user should then zoom out in their
 terminal window and run the executable
 
 `./simulate`,
